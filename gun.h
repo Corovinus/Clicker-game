@@ -10,13 +10,7 @@ public:
 
     void Shoot() override;
     void Reload() override;
-    virtual void GetAmmo() = 0;
-
     bool CheckAmmo();
-
-protected:
-    int max_ammo;
-    int ammo;
 };
 
 #endif // GUN_H

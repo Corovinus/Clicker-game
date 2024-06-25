@@ -1,7 +1,6 @@
 #include "gun.h"
-
-Gun::Gun(QObject *parent) : Weapon(parent), max_ammo(30), ammo(30) {
-
+#include <iostream>
+Gun::Gun(QObject *parent) : Weapon(parent) {
 }
 void Gun::Shoot(){
     if (CheckAmmo()) {

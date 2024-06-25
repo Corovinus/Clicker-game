@@ -13,12 +13,14 @@ SOURCES += \
     machinegun.cpp \
     main.cpp \
     mainwindow.cpp \
+    player.cpp \
     weapon.cpp
 
 HEADERS += \
     gun.h \
     machinegun.h \
     mainwindow.h \
+    player.h \
     weapon.h
 
 FORMS += \
