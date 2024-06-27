@@ -6,6 +6,7 @@
 class Player : public QObject {
     Q_OBJECT
 public:
+    int max_hp;
     int hp;
     int money;
     Weapon* weapon;

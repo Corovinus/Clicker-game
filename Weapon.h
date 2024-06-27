@@ -3,7 +3,7 @@
 #include <iostream>
 #include <QString>
 #include <QObject>
-
+#include <QWidget>
 class Weapon: public QObject {
     Q_OBJECT
 public:

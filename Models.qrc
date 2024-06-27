@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/pic"/>
+    <qresource prefix="/">
+        <file>pic/Slime/slime_b.png</file>
+    </qresource>
+</RCC>

@@ -1,6 +1,6 @@
 #include "player.h"
 
-Player::Player() : hp(100), money(0), weapon(nullptr) {
+Player::Player() : max_hp(100), money(0), hp(100) , weapon(nullptr) {
     this->weapon = new Machinegun();
 }
 

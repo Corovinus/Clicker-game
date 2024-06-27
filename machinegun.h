@@ -3,7 +3,6 @@
 #include "gun.h"
 class Machinegun: public Gun {
 
-protected:
 public:
     explicit Machinegun(QObject *parent = nullptr);
 };

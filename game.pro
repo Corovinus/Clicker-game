@@ -14,20 +14,28 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     player.cpp \
-    weapon.cpp
+    upgrade_shop.cpp \
+    weapon.cpp \
+    weapon_shop.cpp
 
 HEADERS += \
     gun.h \
     machinegun.h \
     mainwindow.h \
     player.h \
-    weapon.h
+    upgrade_shop.h \
+    weapon.h \
+    weapon_shop.h
 
 FORMS += \
     mainwindow.ui \
-    weapons_shop.ui
+    upgrade_shop.ui \
+    weapon_shop.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    Models.qrc
