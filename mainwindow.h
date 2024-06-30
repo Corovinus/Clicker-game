@@ -6,11 +6,13 @@
 #include "player.h"
 #include "weapon_shop.h"
 #include "upgrade_shop.h"
+#include "enemy.h"
 #include <QTimer>
 #include <QVBoxLayout>
 #include <QWidget>
 #include <QLabel>
 #include <QPropertyAnimation>
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -30,26 +32,38 @@ private slots:
     void on_pushButton_Reload_clicked();
     void on_pushButton_Weapons_clicked();
     void returnToMain();
+    void updateAmmoBarStyle();
     void addLabel();
     void removeLabel();
-
     void on_pushButton_Player_clicked();
-
+    void EnemyAtk();
+    void createNewEnemy();
 private:
-    bool labelAdded;
+    Ui::MainWindow *ui;
     QPropertyAnimation* _propertyAnimation;
     QTimer *atk_Timer;
-    Ui::MainWindow *ui;
+    QTimer *reload_Timer;
+    QTimer *noAmmo_Timer;
+    QTimer *enemy_Timer;
+
     QStackedWidget *stackedWidget;
     Weapon_shop *shopWidget;
     upgrade_shop *upgradeWidget;
     Player player;
+    Enemy *enemy;
     QVBoxLayout *layout;
     QLabel *newLabel;
+
+    void SetEnableToShoot();
     void Loading();
+    void LoadingReload();
     void updateProgressBar();
-    int progressBarValue;
+    void updateProgressBarReload();
+
+    double progressBarValue;
     bool loadingComplete;
+    bool labelAdded;
+    bool isShotClicked;
 };
 
 #endif // MAINWINDOW_H

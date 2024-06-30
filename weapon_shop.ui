@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>799</width>
-    <height>602</height>
+    <width>800</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pushButton_Pistolet">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>40</x>
       <y>70</y>
-      <width>151</width>
+      <width>191</width>
       <height>51</height>
      </rect>
     </property>
@@ -33,12 +33,12 @@
      <string>Pistolet</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="pushButton_Bazoo">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>270</y>
-      <width>151</width>
+      <x>40</x>
+      <y>310</y>
+      <width>191</width>
       <height>51</height>
      </rect>
     </property>
@@ -52,12 +52,12 @@
      <string>BAZOOOOO</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="pushButton_Machinegun">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>170</y>
-      <width>151</width>
+      <x>40</x>
+      <y>150</y>
+      <width>191</width>
       <height>51</height>
      </rect>
     </property>
@@ -71,12 +71,12 @@
      <string>Machinegun</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="label_cost4">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>280</y>
-      <width>101</width>
+      <x>250</x>
+      <y>320</y>
+      <width>211</width>
       <height>31</height>
      </rect>
     </property>
@@ -87,15 +87,15 @@
      </font>
     </property>
     <property name="text">
-     <string>Price: 1488</string>
+     <string>Price: 7788</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="label_cost1">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>250</x>
       <y>80</y>
-      <width>121</width>
+      <width>261</width>
       <height>31</height>
      </rect>
     </property>
@@ -109,12 +109,12 @@
      <string>Price: 100</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="label_cost3">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>170</y>
-      <width>121</width>
+      <x>250</x>
+      <y>230</y>
+      <width>231</width>
       <height>51</height>
      </rect>
     </property>
@@ -125,13 +125,13 @@
      </font>
     </property>
     <property name="text">
-     <string>Price: 377</string>
+     <string>Price:  1488</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_Return">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>40</x>
       <y>400</y>
       <width>261</width>
       <height>131</height>
@@ -147,13 +147,122 @@
      <string>Exit</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_AWM">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>230</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Serif</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>AWM</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_cost2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>160</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Serif</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Price: 300</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Money">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>490</y>
+      <width>401</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Serif</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Your money: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_WoodenBackground">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>461</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_BackgroundMoney">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>480</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_WhiteOnDesk">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>80</y>
+      <width>171</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_WoodenBackground</zorder>
+   <zorder>label_WhiteOnDesk</zorder>
+   <zorder>label_cost3</zorder>
+   <zorder>label_cost4</zorder>
+   <zorder>label_BackgroundMoney</zorder>
+   <zorder>pushButton_Pistolet</zorder>
+   <zorder>pushButton_Bazoo</zorder>
+   <zorder>pushButton_Machinegun</zorder>
+   <zorder>label_cost1</zorder>
+   <zorder>pushButton_Return</zorder>
+   <zorder>pushButton_AWM</zorder>
+   <zorder>label_cost2</zorder>
+   <zorder>label_Money</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>799</width>
+     <width>800</width>
      <height>17</height>
     </rect>
    </property>

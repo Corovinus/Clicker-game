@@ -2,5 +2,18 @@
     <qresource prefix="/pic"/>
     <qresource prefix="/">
         <file>pic/Slime/slime_b.png</file>
+        <file>pic/Location/Field.png</file>
+        <file>pic/Enemy/1681108474_pictures-pibig-info-p-narisovannii-skelet-instagram-70.png</file>
+        <file>pic/Enemy/4493.png</file>
+        <file>pic/Enemy/de4adc3db2bc3dd6cdaf798cda4c7fda.jpg</file>
+        <file>pic/Enemy/png-clipart-cartoon-blue-cloud-wind-wind-effect.png</file>
+        <file>pic/Enemy/Taynaya_Dobycha04.jpg</file>
+        <file>pic/Enemy/treasure_chest_PNG78.png</file>
+        <file>pic/Enemy/slimeWoman.png</file>
+        <file>pic/Buttons/WoodButton.png</file>
+        <file>pic/Buttons/WoodButton_Equipt.png</file>
+        <file>pic/Location/Field 2.0.png</file>
+        <file>pic/Location/WeaponShop.png</file>
+        <file>pic/Buttons/WoodenBackground.png</file>
     </qresource>
 </RCC>

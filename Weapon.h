@@ -11,6 +11,7 @@ public:
     int max_ammo;
     int damage;
     int atk_speed;
+    int reloadSpeed;
     QString name;
     explicit Weapon(QObject *parent = nullptr);
     virtual void Shoot() = 0;

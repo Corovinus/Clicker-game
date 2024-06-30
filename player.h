@@ -1,8 +1,12 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#include "machinegun.h"
+#include "gun.h"
 #include <QObject>
+#include "enemy.h"
+
+class Enemy; // Forward declaration
+
 class Player : public QObject {
     Q_OBJECT
 public:
@@ -16,7 +20,7 @@ public:
     void Reload();
 
 public slots:
-    void Shoot();
+    void Shoot(Enemy* enemy);
 };
 
 #endif // PLAYER_H
